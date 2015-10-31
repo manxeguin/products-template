@@ -1,0 +1,153 @@
+doctype html
+head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')  
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0')  
+    title Product template
+    // CSS
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet') 
+    link(href='/bower_components/materialize/dist/css/materialize.min.css', type='text/css', rel='stylesheet', media='screen,projection')  
+    link(href='styles/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+  body
+    ul#slide-out.side-nav.fixed
+      li.logo
+        img.responsive-img.col.s6.materialboxed(src='http://d1he77roj9b4by.cloudfront.net/bqcom/homes/BQ-logo-5-a%C3%B1os.png')    
+      li.no-padding
+        ul.collapsible(data-collapsible='accordion')
+          li
+            .collapsible-header.bold.color-1
+              i.material-icons info_outline
+              | Info    
+      li.no-padding
+        ul.collapsible(data-collapsible='accordion')
+          li
+            .collapsible-header.bold.color-2
+              i.material-icons print
+              | Printers    
+      li.no-padding
+        ul.collapsible(data-collapsible='accordion')
+          li
+            .collapsible-header.bold.color-3.active
+              i.material-icons stay_primary_portrait
+              | Devices           
+            .collapsible-body
+              ul
+                li
+                  a(href='#!') Smartphones               
+                li
+                  a(href='#!') Tablets              
+                li
+                  a(href='#!') E-readers              
+                li
+                  a(href='#!') Accesorios     
+      li.no-padding
+        ul.collapsible(data-collapsible='accordion')
+          li
+            .collapsible-header.bold.color-4
+              i.material-icons games
+              | Games     
+      li.no-padding
+        ul.collapsible(data-collapsible='accordion')
+          li
+            .collapsible-header.bold.color-5
+              i.material-icons settings
+              | Settings  
+    header
+      ul.tabs.grey.darken-3.col.s12
+        li.tab.col.s3.l4
+          a.white-text(href='#test1') tab 1
+          
+        li.tab.col.s3.l4
+          a.active.white-text(href='#test2') tab 2
+           
+        li.tab.col.s3.l4
+          a.white-text(href='#test3') tab 3
+             
+        li.tab.col.s3.l4
+          a.white-text(href='#test4') tab 4
+   
+    main
+      .row
+        .col.s12
+          a.button-collapse.hide-on-large-only.menu-button(href='#', data-activates='slide-out')
+            i.mdi-navigation-menu
+    
+      .fixed-action-btn.hide-on-large-only(style='bottom: 45px; right: 24px;')
+        a.btn-floating.btn-large.pink.darken-3.button-collapse(data-activates='slide-out')
+          i.mdi-navigation-menu     
+      .container.custom-container
+        .section
+          // Icon Section
+          .row
+            .col.s12.m3
+              h5.center Products
+         
+              img.responsive-img.col.s6.materialboxed(src='http://d1he77roj9b4by.cloudfront.net/prod/images/310_310/5/5/f/3/55f30ee008e1900ae03c66ebfa85e9ed45ec6368.jpg')
+   
+              img.responsive-img.col.s6.materialboxed(src='http://d1he77roj9b4by.cloudfront.net/prod/images/310_310/7/1/8/0/71807f07243f30d12c511003ef1fc2af3c7397a1.jpg')
+        
+              img.responsive-img.col.s6.materialboxed(src='http://d1he77roj9b4by.cloudfront.net/prod/images/310_310/6/4/e/c/64ec74f516c5aec06a2de73a54c38b7019f9b7c3.jpg')
+         
+              img.responsive-img.col.s6.materialboxed(src='http://d1he77roj9b4by.cloudfront.net/prod/images/310_310/d/a/4/b/da4b245d419f746385c172ecd5d613c1254d678a.jpg')
+            // 
+            .col.s12.m9.featured-product
+              .icon-block
+                h5.center Featured product            
+                p.light
+                  | By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users.
+          
+              img.responsive-img.col.s12.m6.materialboxed(src='http://d1he77roj9b4by.cloudfront.net/prod/images/310_310/6/4/e/c/64ec74f516c5aec06a2de73a54c38b7019f9b7c3.jpg')
+          
+              form.col.s12.m6
+                h5.center Form              
+                .input-field.col.s12
+                  input#first_name.validate(placeholder='Placeholder', type='text')              
+                  label(for='first_name') First Name             
+                .input-field.col.s12
+                  input#last_name.validate(type='text')           
+                  label(for='last_name') Last Name              
+                button.btn.waves-effect.waves-light.col.s4.offset-s8.grey.darken-4(type='submit', name='action')
+                  | Send
+                  i.material-icons.right send
+        br
+        br  
+        .section   
+    footer.page-footer.grey.darken-4
+      .container
+        .row
+          .col.l4.m4.s12
+            h5.white-text Heading                
+            ul
+              li
+                a.white-text(href='#!') item 1                
+              li
+                a.white-text(href='#!') item 2                      
+              li
+                a.white-text(href='#!') item 3                        
+              li
+                a.white-text(href='#!') item 4              
+          .col.l4.m4.s12
+            h5.white-text Heading             
+            ul
+              li
+                a.white-text(href='#!') item 1                       
+              li
+                a.white-text(href='#!') item 2                     
+              li
+                a.white-text(href='#!') item 3                       
+              li
+                a.white-text(href='#!') item 4               
+          .col.l4.m4.s12
+            h5.white-text Heading                  
+            ul
+              li
+                a.white-text(href='#!') item 1                  
+              li
+                a.white-text(href='#!') item 2                     
+              li
+                a.white-text(href='#!') item 3                       
+              li
+                a.white-text(href='#!') item 4  
+    // Scripts
+    script(src='/bower_components/jquery/dist/jquery.min.js')  
+    script(src='/bower_components/materialize/dist/js/materialize.min.js')  
+    script(src='scripts/init.js')

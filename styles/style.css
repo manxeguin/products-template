@@ -1,0 +1,107 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.container.custom-container{
+	margin: 0;
+	width: 100%;
+}
+
+.page-footer .row{
+	    margin-bottom: 0px; 
+}
+footer.page-footer {
+     margin-top: 0px; 
+
+}
+.side-nav li.logo {
+    height: 48px;
+    margin-bottom: 35px;
+    background-color: white;
+
+}
+
+.side-nav li.logo img {
+    height: 48px;
+   
+}
+
+.side-nav li.active {
+    background-color: rgba(221, 221, 221, 0);
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.color-1 {
+	color:#6B287A;
+}
+.color-2 {
+	color:#B71767;
+}
+.color-3 {
+	color:#D3106E;
+}
+.color-4 {
+	color:#E3263B;
+}
+.color-5 {
+	color:#E86421;
+}
+
+.background-color-1 {
+	color:#6B287A;
+}
+.background-color-2 {
+	color:#B71767;
+}
+.background-color-3 {
+	color:#D3106E;
+}
+.background-color-4 {
+	color:#E3263B;
+}
+.background-color-5 {
+	color:#E86421;
+}
+.featured-product{
+	
+}
+
+.row .col.featured-product {
+  padding: 30px;
+  padding-top: 0;
+}
+
+.padding-left-tabs{
+	padding-left: 	30px;
+}
+
+.menu-button{
+	position: absolute;
+    top: 48px;
+    color: black;
+    font-size: 30px;
+}
+
+header, main, footer {
+    padding-left: 240px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }

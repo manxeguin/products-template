@@ -1,0 +1,11 @@
+{
+  "name": "tapas_mania",
+  "version": "0.0.0",
+  "dependencies": {
+   "materialize":"*"
+	
+  },
+  "devDependencies": {
+   
+  }
+}
